@@ -1,0 +1,201 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fullName": "Roger Waters",
+            "email": "RogerWaters@gmail.com",
+            "isStaff": true
+        },
+        {
+            "id": 2,
+            "fullName": "Jimi Hendrix",
+            "email": "RogerClementine@gmail.com",
+            "isStaff": false
+        },
+        {
+            "id": 3,
+            "fullName": "Jerry Garcia",
+            "email": "JerryGarcia@gmail.com",
+            "isStaff": true
+        },
+        {
+            "id": 4,
+            "fullName": "Mick Jagger",
+            "email": "MickJagger@gmail.com",
+            "isStaff": false
+        },
+        {
+            "id": 5,
+            "fullName": "Robert Plant",
+            "email": "RobertPlant@gmail.com",
+            "isStaff": true
+        },
+        {
+            "id": 6,
+            "fullName": "Eric Clapton",
+            "email": "EricClapton@gmail.com",
+            "isStaff": false
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "userId": 2,
+            "loyaltyNumber": 12345,
+            "locationId": 3
+        },
+        {
+            "id": 2,
+            "userId": 4,
+            "loyaltyNumber": 67891
+        },
+        {
+            "id": 3,
+            "userId": 6,
+            "loyaltyNumber": 23456
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "userId": 1,
+            "locationId": 1,
+            "startDate": "03/20/20",
+            "payRate": 14.25
+        },
+        {
+            "id": 2,
+            "userId": 3,
+            "locationId": 2,
+            "startDate": "08/22/15",
+            "payRate": 17.25
+        },
+        {
+            "id": 3,
+            "userId": 5,
+            "locationId": 3,
+            "startDate": "05/24/18",
+            "payRate": 16.25
+        }
+    ],
+    "locations": [
+        {
+            "id": 2,
+            "name": "Candy Crush",
+            "address": "123 Python Path",
+            "squareFootage": 6000
+        },
+        {
+            "id": 3,
+            "name": "Cavity City",
+            "address": "456 Java Way",
+            "squareFootage": 4359
+        },
+        {
+            "id": 1,
+            "name": "I Want Candy",
+            "address": "789 CSS Circle",
+            "squareFootage": 1178
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "lollipop",
+            "productTypeId": 1,
+            "pricePerUnit": 1.00
+        },
+        {
+            "id": 2,
+            "name": "Jaw Breakers",
+            "productTypeId": 1,
+            "pricePerUnit": 1.25
+        },
+        {
+            "id": 3,
+            "name": "Skittles",
+            "productTypeId": 1,
+            "pricePerUnit": 1.75
+        },
+        {
+            "id": 4,
+            "name": "Juicy Fruit",
+            "productTypeId": 2,
+            "pricePerUnit": 1.10
+        },
+        {
+            "id": 5,
+            "name": "Big Red",
+            "productTypeId": 2,
+            "pricePerUnit": 1.10
+        },
+        {
+            "id": 6,
+            "name": "Bubbalicious",
+            "productTypeId": 2,
+            "pricePerUnit": 1.25
+        },
+        {
+            "id": 7,
+            "name": "Reeses",
+            "productTypeId": 3,
+            "pricePerUnit": 2.00
+        },
+        {
+            "id": 8,
+            "name": "Snickers",
+            "productTypeId": 3,
+            "pricePerUnit": 2.00
+        },
+        {
+            "id": 9,
+            "name": "Milky Way",
+            "productTypeId": 3,
+            "pricePerUnit": 2.00
+        },
+        {
+            "id": 10,
+            "name": "Mountain Dew",
+            "productTypeId": 4,
+            "pricePerUnit": 2.50
+        },
+        {
+            "id": 11,
+            "name": "Coke",
+            "productTypeId": 4,
+            "pricePerUnit": 2.50
+        },
+        {
+            "id": 12,
+            "name": "Sprite",
+            "productTypeId": 4,
+            "pricePerUnit": 2.50
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "Hard Candy"
+        },
+        {
+            "id": 2,
+            "type": "Gum"
+        },
+        {
+            "id": 3,
+            "type": "Chocolate"
+        }, 
+        {
+            "id": 4,
+            "type": "Sodas"
+        }
+    ],
+    "purchases": [
+        {
+            "id": 0,
+            "userId": 0,
+            "productName": "",
+            "productQuantity": ""
+        }
+    ]
+}
